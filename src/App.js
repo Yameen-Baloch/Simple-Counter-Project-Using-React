@@ -19,8 +19,8 @@ const App = () =>{
     <h1>
       {count}
     </h1>
-    <button className='inc_Button' onClick={incNum}>Click Me.</button>
-    <button className='dec_Button' onClick={decNum}>Click Me.</button>
+    <button className='inc_Button' onClick={incNum}>Incease Number</button>
+    <button className='dec_Button' onClick={decNum}>Decrease Number</button>
     </>
   )
 }
