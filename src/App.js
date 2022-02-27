@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 
 const App = () =>{
 
-  let state = useState();
-
   const [count, setCount] = useState(0)
 
   const incNum = () => {
@@ -19,7 +17,7 @@ const App = () =>{
     <h1>
       {count}
     </h1>
-    <button className='inc_Button' onClick={incNum}>Incease Number</button>
+    <button className='inc_Button' onClick={incNum}>Increase Number</button>
     <button className='dec_Button' onClick={decNum}>Decrease Number</button>
     </>
   )
